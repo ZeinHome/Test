@@ -1,0 +1,136 @@
+.footer {
+  background-color: $main-color;
+  color: white;
+  padding: 24px 0;
+}
+
+.footer-top {
+  display: flex;
+  gap: 30px;
+
+  @media screen and (max-width: 1229px) {
+    gap: 40px;
+  }
+}
+
+.footer__info {
+  display: flex;
+  gap: 107px;
+
+  @media screen and (max-width: 1229px) {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+.footer__info-container {
+  display: flex;
+  gap: 8px;
+
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.footer__title {
+  font-size: 18px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style-type: disc;
+  padding-left: 20px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.footer-bottom {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+.footer-bottom__link {
+  color: $white;
+  text-decoration: underline;
+
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
+}
+
+.payment-methods {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
+  & img {
+    width: 65px;
+    height: 54px;
+
+    @media screen and (max-width: 767px) {
+      width: 50px;
+      height: 48px;
+    }
+  }
+  & img:first-of-type {
+    margin-left: 16px;
+
+    @media screen and (max-width: 767px) {
+      margin-left: 0;
+    }
+  }
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  & strong {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.footer__wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.footer__read-more {
+  display: none;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+}
+
+.footer__info-wrapper {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    gap: 8px;
+
+    align-items: center;
+  }
+}

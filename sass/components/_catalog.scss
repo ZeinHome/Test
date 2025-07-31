@@ -1,0 +1,28 @@
+.catalog {
+  display: none;
+  max-width: 429px;
+  width: 100%;
+
+  @media screen and (min-width: 1230px) {
+    display: block;
+  }
+}
+.catalog__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 24px;
+  background-color: $white;
+}
+
+.catalog__list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__list-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

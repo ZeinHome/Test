@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <button class="chat-button"></button>
+    <header class="container container__header">
+      <img src="./images/Logo.png" alt="Logo" class="logo" />
+      <h1 class="header__title">СтомаТрейд</h1>
+      <nav>
+        <ul class="header__list">
+          <li class="header__nav-item actions">Акції</li>
+          <li class="header__nav-item">Про нас</li>
+          <li class="header__nav-item">Як купити</li>
+          <li class="header__nav-item">Оплата і доставка</li>
+          <li class="header__nav-item">Гарантія</li>
+        </ul>
+      </nav>
+      <div class="header__connect">
+        <span>Зв’язок з нами</span>
+        <button>
+          <img src="./images/btn_logo.png" alt="connect" />
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu section--no-padding">
+        <div class="container container__menu">
+          <img
+            src="./images/Logo.png"
+            alt="Logo"
+            class="logo menu__logo"
+          />
+          <div class="menu__catalog">
+            <button>
+              <img src="./images/btn_menu.png" alt="menu" />
+            </button>
+            <h2 class="menu__catalog-title">Каталог товарів</h2>
+          </div>
+
+          <form class="search-form">
+            <input
+              type="text"
+              placeholder="Пошук товарів"
+              class="search-input"
+            />
+            <button type="submit">
+              <img src="./images/btn_search.png" alt="search" />
+            </button>
+          </form>
+
+          <button class="menu__login">Вхід</button>
+
+          <div class="wrapper-menu__tools">
+            <ul class="menu__tools">
+              <li class="menu__tools-item">
+                <img
+                  src="./images/scales.png"
+                  alt="scales"
+                  width="21px"
+                  height="19px"
+                />
+              </li>
+              <li class="menu__tools-item">
+                <img
+                  src="./images/hurt.png"
+                  alt="hurt"
+                  width="21px"
+                  height="19px"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="menu__basket">
+            <img src="./images/basket.png" alt="basket" />
+            <div class="menu__basket-info">
+              <span class="menu__basket-text">Cума заказу</span>
+              <span class="menu__basket-text">38 999 ₴</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container wrapper__slider">
+        <aside class="catalog">
+          <ul class="catalog__list">
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Для стоматолога</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Для техніка</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Для хірурга</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Для ортодонту</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Обладнання</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Інструменти</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Дезинфікація</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Засоби гігієни</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+            <li class="catalog__list-item">
+              <div class="catalog__list-title">
+                <img src="./images/img_catalog.png" alt="catalog" />
+                <p>Розпродаж</p>
+              </div>
+              <button>
+                <img src="./images/btn_catalog.png" alt="arrow" />
+              </button>
+            </li>
+          </ul>
+        </aside>
+        <div class="slider__content">
+          <div class="section__slider">
+            <ul>
+              <li><img src="./images/Slider.png" alt="slider" /></li>
+            </ul>
+          </div>
+
+          <div class="section__brand">
+            <h2 class="brand__title">Бренди</h2>
+            <ul class="brand__slider">
+              <li class="brand__slider-item">
+                <img src="./images/brand.png" alt="brand" />
+                <h3>КомоДентал</h3>
+              </li>
+              <li class="brand__slider-item">
+                <img src="./images/brand.png" alt="brand" />
+                <h3>Стомофарм</h3>
+              </li>
+              <li class="brand__slider-item">
+                <img src="./images/brand.png" alt="brand" />
+                <h3>Зубомед</h3>
+              </li>
+              <li class="brand__slider-item">
+                <img src="./images/brand.png" alt="brand" />
+                <h3>Медикал Продуктс</h3>
+              </li>
+            </ul>
+            <button class="brand__slider-btn">Каталог товарів</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2 class="sales-leaders__title">ЛІДЕРИ ПРОДАЖ</h2>
+        <div class="sale__background">
+          <ul class="sales-leaders__list">
+            <li class="sales-leaders__item">
+              <span class="discount">19%</span>
+              <img src="./images/LiderS.png" alt="img" />
+              <p class="sales-leaders__text">
+                Vitis ORTHODONTIC ополіскувач 500мл
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="old-price">420 грн.</p>
+                  <p class="new-price">340 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+            <li class="sales-leaders__item">
+              <img src="./images/LiderS2.png" alt="img" />
+              <p class="sales-leaders__text">
+                Апарат наркозно-дихальний Біомед АХ-700
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="new-price">1 400 000 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+            <li class="sales-leaders__item">
+              <img src="./images/LiderS3.png" alt="img" />
+              <p class="sales-leaders__text">
+                Стоматологічна установка Simple & Smart SS-KISS
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="new-price">347 000 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+            <li class="sales-leaders__item">
+              <img src="./images/LiderS4.png" alt="img" />
+              <p class="sales-leaders__text">
+                FUJI IX GP набір: 15 г + 6.4 мл
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="new-price">2 340 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+          </ul>
+          <button class="btn-more__slider none">
+            <img src="./images/Slider buttons.png" alt="more" />
+          </button>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2 class="sales-leaders__title">РОЗПРОДАЖ</h2>
+        <div class="sale__background">
+          <ul class="sales-leaders__list">
+            <li class="sales-leaders__item">
+              <span class="discount">19%</span>
+              <img src="./images/LiderS.png" alt="img" />
+              <p class="sales-leaders__text">
+                Vitis ORTHODONTIC ополіскувач 500мл
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="old-price">420 грн.</p>
+                  <p class="new-price">340 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+            <li class="sales-leaders__item">
+              <span class="discount">30%</span>
+              <img src="./images/LiderS2.png" alt="img" />
+              <p class="sales-leaders__text">
+                Апарат наркозно-дихальний Біомед АХ-700
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="old-price">2 000 000 грн.</p>
+                  <p class="new-price">1 400 000 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+            <li class="sales-leaders__item">
+              <span class="discount">44%</span>
+              <img src="./images/LiderS3.png" alt="img" />
+              <p class="sales-leaders__text">
+                Стоматологічна установка Simple & Smart SS-KISS
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="old-price">620 000 грн.</p>
+                  <p class="new-price">347 000 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+            <li class="sales-leaders__item">
+              <span class="discount">46%</span>
+              <img src="./images/LiderS4.png" alt="img" />
+              <p class="sales-leaders__text">
+                FUJI IX GP набір: 15 г + 6.4 мл
+              </p>
+              <div class="sales-leaders__info">
+                <div>
+                  <p class="old-price">4 200 грн.</p>
+                  <p class="new-price">2 340 грн.</p>
+                </div>
+                <button class="sales-leaders__btn">
+                  <img src="./images/Buy.png" alt="button" />
+                </button>
+              </div>
+            </li>
+          </ul>
+          <button class="btn-more">Показати більше</button>
+          <button class="btn-more__slider">
+            <img src="./images/Slider buttons.png" alt="more" />
+          </button>
+        </div>
+      </section>
+      <section class="container info-blocks__section">
+        <h2 class="info-blocks__title">ПРО КОМПАНІЮ</h2>
+        <div class="info-blocks__text">
+          <p>
+            Ваш надійний партнер у світі стоматологічного обладнання —
+            СтомаТрейд
+          </p>
+          <p>
+            Ласкаво просимо до компанії СтомаТрейд — вашого вірного
+            помічника у створенні сучасних, високотехнологічних
+            стоматологічних кабінетів. Ми розуміємо, що якісне
+            обладнання — це не лише інструмент роботи, а й запорука
+            успішного лікування, комфорту пацієнтів і довіри до вашої
+            клініки. Саме тому ми створили платформу, де кожен
+            стоматолог знайде все необхідне для розвитку свого
+            бізнесу.
+          </p>
+          <button class="none read-more">Читати повністю</button>
+          <p class="none__text">
+            Місія компанії СтомаТрейд — допомогти стоматологам
+            створити ідеальні умови для своєї роботи. Ми віримо, що
+            разом з якісним обладнанням ваша клініка зможе не лише
+            задовольнити очікування пацієнтів, а й перевершити їх у
+            декілька разів.
+          </p>
+          <p class="none__text">
+            Співпраця з нами — це більше, ніж просто покупка. Це
+            партнерство, яке базується на довірі, надійності та
+            професіоналізмі. Приєднуйтесь до сотень задоволених
+            клієнтів, які вже обрали СтомаТрейд для розвитку та
+            вдосконалення свого бізнесу.
+          </p>
+        </div>
+
+        <div class="additional-information">
+          <h3 class="info-blocks__title">Оформлення замовлення</h3>
+          <div class="info-blocks__text">
+            <p>
+              Щоб замовити необхідний інструмент/обладнання, потрібно
+              зателефонувати за номером +38 (066) 366 99 05 або
+              скористатися онлайн-сервісом сайту інтернет-магазину:
+            </p>
+            <ul class="info-blocks__list">
+              <li>Натиснути «Купити».</li>
+              <li>
+                Перейти до кошика та натиснути «Оформлення
+                замовлення».
+              </li>
+              <li>Ввести контактну інформацію.</li>
+              <li>
+                Вибрати зручний спосіб доставки (самовивіз, «Нова
+                Пошта», адресна доставка).
+              </li>
+              <li>
+                Вибрати спосіб оплати (готівкою при отриманні, за
+                безготівковим рахунком).
+              </li>
+              <li>Підтвердити замовлення.</li>
+            </ul>
+            <p>
+              На електронну пошту відразу прийде повідомлення про
+              прийняття замовлення в обробку. З будь-якого питання
+              завжди можна проконсультуватися, зателефонувавши за
+              номером +38(066)366 99 05.
+            </p>
+          </div>
+
+          <h3 class="info-blocks__title">Інша інформація</h3>
+          <div class="info-blocks__text">
+            <p>
+              "Sed ut perspiciatis unde omnis iste natus error sit
+              voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis et
+              quasi architecto beatae vitae dicta sunt explicabo. Nemo
+              enim ipsam voluptatem quia voluptas sit aspernatur aut
+              odit aut fugit, sed quia consequuntur magni dolores eos
+              qui ratione voluptatem sequi nesciunt. Neque porro
+              quisquam est, qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit, sed quia non numquam eius
+              modi tempora incidunt ut labore et dolore magnam aliquam
+              quaerat voluptatem. Ut enim ad minima veniam, quis
+              nostrum exercitationem ullam corporis suscipit
+              laboriosam, nisi ut aliquid ex ea commodi consequatur?
+              Quis autem vel eum iure reprehenderit qui in ea
+              voluptate velit esse quam nihil molestiae consequatur,
+              vel illum qui dolorem eum fugiat quo voluptas nulla
+              pariatur?"
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__wrapper">
+        <div class="footer-logo">
+          <picture>
+            <source
+              media="(max-width: 1199px)"
+              srcset="./images/logo.png"
+            />
+            <img
+              src="./images/logo-footer.png"
+              width="81"
+              height="81"
+              alt="STOMA Logo"
+            />
+          </picture>
+        </div>
+
+        <div>
+          <div class="footer-top">
+            <div class="footer__info">
+              <div class="footer__info-container">
+                <h2 class="footer__title">Особовий кабінет:</h2>
+                <button>
+                  <img
+                    class="footer__read-more"
+                    src="./images/btn-read-more-footer.png"
+                    alt="Button"
+                  />
+                </button>
+                <ul class="footer__list">
+                  <li>Увійти</li>
+                  <li>Створити акаунт</li>
+                  <li>Порівняння товарів</li>
+                  <li>Улюблені товари</li>
+                </ul>
+              </div>
+
+              <div class="footer__info-container">
+                <h2 class="footer__title">Про нас:</h2>
+                <button>
+                  <img
+                    class="footer__read-more"
+                    src="./images/btn-read-more-footer.png"
+                    alt="Button"
+                  />
+                </button>
+                <ul class="footer__list">
+                  <li>Про нас</li>
+                  <li>Новини</li>
+                  <li>Гарантії</li>
+                  <li>Контакти</li>
+                </ul>
+              </div>
+
+              <div class="footer__info-container">
+                <h2 class="footer__title">Покупцям:</h2>
+                <button>
+                  <img
+                    class="footer__read-more"
+                    src="./images/btn-read-more-footer.png"
+                    alt="Button"
+                  />
+                </button>
+                <ul class="footer__list">
+                  <li>Як купити</li>
+                  <li>Акції</li>
+                  <li>Оплата і доставка</li>
+                  <li>Повернення товару</li>
+                  <li>Виробники</li>
+                </ul>
+              </div>
+
+              <div class="footer__info-container">
+                <h2 class="footer__title">Контакти:</h2>
+                <button>
+                  <img
+                    class="footer__read-more"
+                    src="./images/btn-read-more-footer.png"
+                    alt="Button"
+                  />
+                </button>
+                <ul class="contact__list">
+                  <li>
+                    <strong>Телефон:</strong> +38 (066) 366 99 05
+                  </li>
+                  <li>
+                    <strong>Пошта:</strong> stomatrade@gmail.com
+                  </li>
+                  <li><strong>Instagram:</strong> @stomatrade</li>
+                  <li>
+                    <strong>Facebook:</strong> СтомаТрейд Дніпро
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="payment-methods">
+            <p>Cпосіб оплати:</p>
+            <img src="images/Visa.png" alt="Visa" />
+            <img src="./images/Mastercard.svg" alt="Mastercard" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="#" class="footer-bottom__link"
+          >© 2025 StomaTrade. Всі права захищені.</a
+        >
+        <a href="#" class="footer-bottom__link"
+          >Політика конфіденційності</a
+        >
+        <a href="#" class="footer-bottom__link">Публічна оферта</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+.sales-leaders__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0;
+
+  margin-bottom: 14px;
+}
+
+.sale__background {
+  background-color: $sapphire;
+  border-radius: 20px;
+
+  text-align: center;
+  padding: 24px;
+
+  @media screen and (max-width: 1229px) {
+    background-color: $prime-bg;
+    padding: 0;
+  }
+}
+
+.sales-leaders__list {
+  padding: 24px;
+  display: flex;
+  gap: 20px;
+
+  justify-content: space-around;
+}
+
+.sales-leaders__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: $white;
+  border-radius: 15px;
+  padding: 15px;
+  width: 230px;
+  text-align: center;
+  position: relative;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+
+  @media screen and (max-width: 1229px) {
+    width: 162px;
+  }
+
+  @media screen and (max-width: 767px) {
+    &:nth-child(3),
+    &:nth-child(4) {
+      display: none;
+    }
+  }
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: $accent-color;
+  color: $dark;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.sales-leaders__text {
+  margin: 8px 0 22px;
+  text-align: left;
+
+  @media screen and (max-width: 1229px) {
+    margin-bottom: 16px;
+    font-size: 10px;
+  }
+}
+
+.sales-leaders__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.old-price {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 2px;
+
+  @media screen and (max-width: 1229px) {
+    font-size: 10px;
+  }
+}
+
+.new-price {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+
+  @media screen and (max-width: 1229px) {
+    font-size: 10px;
+  }
+}
+
+.sales-leaders__btn {
+  cursor: pointer;
+}
+
+.btn-more {
+  display: block;
+  color: #fff;
+
+  @media screen and (max-width: 1229px) {
+    display: none;
+  }
+}
+
+.btn-more__slider {
+  display: block;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1230px) {
+    display: none;
+  }
+}
+.none {
+  display: none;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+}

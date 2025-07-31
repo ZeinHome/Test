@@ -1,0 +1,40 @@
+.logo {
+  width: 62px;
+  height: 62px;
+
+  cursor: pointer;
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.header__nav-item {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}
+
+.actions {
+  background: $accent-color;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.header__connect {
+  display: flex;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+
+  gap: 8px;
+}

@@ -1,0 +1,27 @@
+.wrapper__slider {
+  display: flex;
+
+  gap: 20px;
+
+  @media screen and (min-width: 1230px) {
+    justify-content: space-between;
+  }
+}
+
+.section__slider {
+  margin: 16px 0 24px;
+
+  @media screen and (min-width: 1230px) {
+    margin: 16px 0;
+  }
+
+  & img {
+    @media screen and (max-width: 1229px) {
+      width: 100%;
+    }
+  }
+}
+
+.slider__content {
+  width: 100%;
+}
